@@ -1,0 +1,53 @@
+html
+    head 
+        title REST Sniffer
+        //- <script src="http://cdn.socket.io/stable/socket.io.js"></script>
+        script(src="http://code.jquery.com/jquery-1.9.1.min.js")
+        script(src="http://192.168.28.62:3000/socket.io/socket.io.js")
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js")
+        script(src="http://192.168.28.62:3000/javascripts/client.js")
+        //- link(rel="stylesheet",href="http://cdn.jsdelivr.net/foundation/4.0.5/css/foundation.min.css")
+        link(rel="stylesheet",href="http://192.168.28.62:3000/stylesheets/style.css")
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        //- script
+        
+
+    body
+        .navbar.navbar-inverse(style='position: static;width:100%;border-radius:0px;z-index:+1;')
+            .navbar-inner(style='border-radius:0px;')
+                .container
+                  a.btn.btn-navbar(data-toggle='collapse', data-target='.navbar-inverse-collapse')
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  a.brand(href='#') REST Sniffer
+                  .nav-collapse.collapse.navbar-inverse-collapse
+                    //- ul.nav
+                    //-   li.dropdown
+                    //-     a.dropdown-toggle(href='#', data-toggle='dropdown')
+                    //-       | Dropdown
+                    //-       b.caret
+                    //-     ul.dropdown-menu
+                    //-       li
+                    //-         a(href='#') Action
+                    //-       li
+                    //-         a(href='#') Another action
+                    //-       li
+                    //-         a(href='#') Something else here
+                    //-       li.divider
+                    //-       li.nav-header Nav header
+                    //-       li
+                    //-         a(href='#') Separated link
+                    //-       li
+                    //-         a(href='#') One more separated link
+                    //- form.navbar-search.pull-left(action='')
+                    //-   input.search-query.span2(type='text', placeholder='Search')
+                    
+                  //
+                     /.nav-collapse 
+              //
+                 /navbar-inner 
+
+
+        block content

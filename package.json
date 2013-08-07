@@ -1,0 +1,15 @@
+{
+  "name": "proxymock",
+  "description": "A package using naive versioning",
+  "author": "A confused individual <iam@confused.com>",
+  "version":"0.0.1",
+  "dependencies": {
+    "http-proxy": "*",
+    "colors": "0.6.0-1",
+    "express": "3.1.0",
+    "jade": "0.28.2",
+    "socket.io": "0.9.0",
+    "tamper": "0.1.0",
+    "utils": "0.1.4"
+  }
+}
